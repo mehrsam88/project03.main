@@ -1,0 +1,44 @@
+@font-face {
+    font-family: yekan;
+    src: url('../font/yekan-font/yekan-regular.eot');
+    src: url('yekan') format('FontName-opentype'),
+         url('../font/yekan-font/Yekan.woff') format('woff'),
+         url('../font/yekan-font/yekan-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: yekan ;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+/*****************************id******************************/
+#i01{
+    width: 100px;
+    height: 100px;
+}
+#i02{
+    width: 300px;
+    height: 250px;
+}
+#td02{
+    background-color: gray;
+    padding: 10px;
+    padding-bottom: 450px;
+    border: solid 10px gainsboro;
+}
+/****************************class****************************/
+.td01{
+    
+    padding: 20px 25px;
+}
+.i01{
+    width: 200px;
+    height: 150;
+}
+.p01{
+    border: solid aliceblue 10px;
+}
